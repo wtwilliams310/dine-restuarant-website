@@ -25,11 +25,35 @@
     <title>Frontend Mentor | Dine Website Challenge</title>
   </head>
   <body>
-    Reservations We can’t wait to host you. If you have any special requirements
-    please feel free to call on the phone number below. We’ll be happy to
-    accommodate you. Name Email Pick a date Pick a time Make Reservation
-    Marthwaite, Sedbergh Cumbria +00 44 123 4567 Open Times Mon - Fri: 09:00 AM
-    - 10:00 PM Sat - Sun: 09:00 AM - 11:30 PM
+    <main class="main">
+      <header><h1 id="rest-name">dine</h1></header>
+      <section class="reservations">
+        <h2 class="reserve-title">Reservations</h2>
+        <p>
+          We cnat' wait to host you. If you have any special requirements please
+          feel free to call on the phone number below. We'll be happy to
+          accommodate you.
+        </p>
+        <button id="reserve-place">RESERVE PLACE</button>
+      </section>
+      <section class="form">
+        <input type="text" id="name" class="cust-info" placeholder="Name" />
+        <input type="email" id="email" placeholder="Email" class="cust-info" />
+        <span>Pick a date</span>
+        <input type="number" class="date" id="month" placeholder="MM" />
+        <p>Pick a date</p>
+        <input type="number" class="date" id="day" placeholder="DD" />
+        <input type="number" class="date" id="year" placeholder="YYYY" />
+        <span>Pick a time</span>
+        <input type="number" class="time" id="hour" placeholder="00" />
+        <input type="number" class="time" id="minutes" placeholder="00" />
+        <select name="" id=""></select>
+      </section>
+    </main>
+
+    Name Email Pick a date Pick a time Make Reservation Marthwaite, Sedbergh
+    Cumbria +00 44 123 4567 Open Times Mon - Fri: 09:00 AM - 10:00 PM Sat - Sun:
+    09:00 AM - 11:30 PM
 
     <!-- My JS file -->
     <script src="./myScript.js"></script>
